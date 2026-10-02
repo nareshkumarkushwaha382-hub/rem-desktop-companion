@@ -130,7 +130,7 @@ function behaviorLoop() {
 
 setInterval(
     behaviorLoop,
-    12000
+    3000
 );
 
 
