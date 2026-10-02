@@ -88,3 +88,25 @@ body {
   border-radius: 50%;
   background: #7fffd4;
 }
+/* Mobile layout */
+@media (max-width: 600px) {
+  #rem-container {
+    bottom: 15px;
+    width: 100%;
+  }
+
+  #rem-image {
+    width: 220px;
+    max-width: 75vw;
+  }
+
+  #speech-bubble {
+    max-width: 70vw;
+    font-size: 14px;
+  }
+
+  #status {
+    bottom: 3px;
+    font-size: 10px;
+  }
+}
