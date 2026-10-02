@@ -75,21 +75,15 @@ rem.addEventListener("click", () => {
 -------------------------------- */
 
 function idleAnimation() {
+function idleAnimation() {
+  const direction = Math.random() > 0.5 ? 1 : -1;
+  const distance = 25 + Math.random() * 25;
 
-    const movement =
-        Math.random() > 0.5
-            ? 3
-            : -3;
+  rem.style.transform = `translateX(${direction * distance}px)`;
 
-    rem.style.transform =
-        `translateX(${movement}px)`;
-
-    setTimeout(() => {
-
-        rem.style.transform =
-            "translateX(0)";
-
-    }, 700);
+  setTimeout(() => {
+    rem.style.transform = "translateX(0)";
+  }, 1200);
 }
 
 
