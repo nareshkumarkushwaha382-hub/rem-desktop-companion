@@ -1,5 +1,4 @@
-const rem = document.getElementById("rem-placeholder");
-
+const rem = document.getElementById("rem-image");
 const speechBubble = document.getElementById("speech-bubble");
 const speechText = document.getElementById("speech-text");
 
