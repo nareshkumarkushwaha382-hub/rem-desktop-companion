@@ -88,29 +88,3 @@ body {
   border-radius: 50%;
   background: #7fffd4;
 }
-@media (max-width: 600px) {
-  #rem-container {
-    left: 50%;
-    bottom: 8px;
-    width: 100%;
-    transform: translateX(-50%);
-  }
-
-  #rem-image {
-    width: 160px;
-    max-width: 45vw;
-    height: auto;
-  }
-
-  #speech-bubble {
-    bottom: calc(100% + 10px);
-    max-width: 65vw;
-    font-size: 13px;
-    padding: 9px 12px;
-  }
-
-  #status {
-    bottom: 2px;
-    font-size: 9px;
-  }
-}
