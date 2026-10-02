@@ -32,7 +32,7 @@ body {
   cursor: pointer;
   user-select: none;
   -webkit-user-drag: none;
-  transition: transform 0.7s ease;
+  transition: transform 1.2s ease-in-out;
 }
 
 #rem-image:hover {
