@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Rem Desktop Companion</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <main id="companion">
+
+        <!-- Rem will eventually be displayed here -->
+        <div id="rem-container">
+
+            <div id="speech-bubble" class="hidden">
+                <span id="speech-text"></span>
+            </div>
+
+            <div id="rem-placeholder">
+                <div class="rem-glow"></div>
+
+                <div class="rem-face">
+                    <span class="eye left"></span>
+                    <span class="eye right"></span>
+                    <span class="mouth"></span>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Small status indicator -->
+        <div id="status">
+            <span id="status-dot"></span>
+            <span id="status-text">Rem is here</span>
+        </div>
+
+    </main>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
