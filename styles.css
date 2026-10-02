@@ -88,25 +88,29 @@ body {
   border-radius: 50%;
   background: #7fffd4;
 }
-/* Mobile layout */
 @media (max-width: 600px) {
   #rem-container {
-    bottom: 15px;
+    left: 50%;
+    bottom: 8px;
     width: 100%;
+    transform: translateX(-50%);
   }
 
   #rem-image {
-    width: 220px;
-    max-width: 75vw;
+    width: 160px;
+    max-width: 45vw;
+    height: auto;
   }
 
   #speech-bubble {
-    max-width: 70vw;
-    font-size: 14px;
+    bottom: calc(100% + 10px);
+    max-width: 65vw;
+    font-size: 13px;
+    padding: 9px 12px;
   }
 
   #status {
-    bottom: 3px;
-    font-size: 10px;
+    bottom: 2px;
+    font-size: 9px;
   }
 }
